@@ -5,3 +5,14 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+console.log("\t\t\t\t\tGols da temporada:\n\n");
+
+for ( let i = 0; i < array.length; i++) {
+    //arrai pai
+    let jogador =  `jogador ${i + 1}: `
+    for (let j =0; j < array[i].length; j++) {
+        jogador += `${array[i][j]} `
+    }
+     console.log(jogador)
+}
